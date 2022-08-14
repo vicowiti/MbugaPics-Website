@@ -65,7 +65,7 @@ const Navbar = () => {
         <div
           className={
             showMenu
-              ? ` absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-black text-center ease-in duration-300 w-full h-screen z-2 `
+              ? ` absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-black text-center ease-in duration-300 w-full h-screen z-10 `
               : `absolute top-0 bottom-0 left-[-100] right-0 hidden justify-center items-center bg-black text-center ease-in duration-300 w-full h-screen z-2 `
           }
         >
