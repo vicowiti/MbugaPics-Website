@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero";
+import Slider from "../components/Slider";
+import { sliderData } from "../data/sliderData";
 
 export default function Home() {
   return (
@@ -12,8 +14,9 @@ export default function Home() {
       </Head>
       <Hero
         heading="Mbuga PhotoGraphy"
-        message="Looking to document your Safari to the Kenyan wild? We got you"
+        message="Looking to document your Safari to the Kenyan wild? Look no further"
       />
+      <Slider sliderData={sliderData} />
     </div>
   );
 }
