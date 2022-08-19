@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
         <ul className="hidden lg:flex gap-8" style={{ color: textColor }}>
           <li>
-            <Link href="#hero">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="#gallery">Gallery</Link>
@@ -72,25 +72,25 @@ const Navbar = () => {
           <ul style={{ color: textColor }}>
             <li
               onClick={() => setShowMenu(!showMenu)}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:underline"
             >
-              <Link href="#hero">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li
               onClick={() => setShowMenu(!showMenu)}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:underline"
             >
               <Link href="#gallery">Gallery</Link>
             </li>
             <li
               onClick={() => setShowMenu(!showMenu)}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:underline"
             >
               <Link href="/work">Work</Link>
             </li>
             <li
               onClick={() => setShowMenu(!showMenu)}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:underline"
             >
               <Link href="/contact">Contact</Link>
             </li>
